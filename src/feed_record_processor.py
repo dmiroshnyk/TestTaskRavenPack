@@ -2,7 +2,7 @@ import logging
 import json
 from types import SimpleNamespace
 
-from src.story import Story
+from story import Story
 
 
 class FeedRecordProcessor:

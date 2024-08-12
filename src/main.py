@@ -2,10 +2,11 @@ import sys
 import logging
 import os.path
 
-from src.feed_record_processor import FeedRecordProcessor
+from feed_record_processor import FeedRecordProcessor
+
 
 def main():
-    logging.basicConfig(filename='log.log', level=logging.INFO, filemode='w')
+    logging.basicConfig(level=logging.INFO)
     logger = logging.getLogger(__name__)
 
     argument_list = sys.argv[1:]
