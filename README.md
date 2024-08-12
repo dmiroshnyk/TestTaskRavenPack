@@ -1,4 +1,5 @@
 This is the app to solve the techical challenge task from RavenPack.
+
 Running instructions:
    1. Clone the repo.
    2. Execute docker build -t raven-pack .
