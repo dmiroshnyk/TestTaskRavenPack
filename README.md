@@ -2,7 +2,7 @@ This is the app to solve the techical challenge task from RavenPack.
 
 Running instructions:
    1. Clone the repo.
-   2. cd <folder where the repo was cloned>
+   2. cd to folder where the repo was cloned
    3. docker build -t raven-pack .
    4. docker run raven-pack
  
